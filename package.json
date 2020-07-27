@@ -1,0 +1,15 @@
+{
+  "name": "dino-blunder",
+  "version": "1.0.0",
+  "description": "Simple 2D game",
+  "main": "game.js",
+  "scripts": {
+    "test": "node --version",
+    "build": "node scripts/index.js"
+  },
+  "author": "Nishanth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

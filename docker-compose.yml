@@ -1,0 +1,19 @@
+version: '3'
+services:
+  jumper:
+    container_name: jumper
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: jumper
+    ports: 
+      - "3000:3000"
+    networks:
+        gameNetwork:
+          ipv4_address: 172.22.0.4
+networks:
+  gameNetwork:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.22.0.0/24
