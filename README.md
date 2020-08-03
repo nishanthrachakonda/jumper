@@ -1,6 +1,6 @@
 # Jumper
 
-A simple jumper game, built using Phaser. This project is largely based on phaser tutorial.
+A simple jumper game, built using Phaser. This project is largely based on phaser tutorial. You can play the game [here](https://web.iiit.ac.in/~saketh.venkat/).
 
 ## Installation
 
